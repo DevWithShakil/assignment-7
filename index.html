@@ -57,7 +57,8 @@
             <h1>Reported posts</h1>
         </div>
     </main>
-    <footer>
+    <br>
+    <footer style="margin-left: 100px; text-align: justify;">
         <!-- footer part -->
         <h1>How does javascript work?</h1>
         <p>JavaScript is what is called a Client-side Scripting Language. That means that it is a computer programming
@@ -65,6 +66,13 @@
             The source code is passed through a program called a compiler, which translates it into bytecode that the
             machine understands and can execute. In contrast, JavaScript has no compilation step.Instead, an interpreter
             in the browser reads over the JavaScript code, interprets each line, and runs it.</p>
+        <br>
+        <h1>What does javascript event loop</h1>
+        <p>The event loop is the secret behind JavaScript’s asynchronous programming.An example of this is the
+            setTimeout method. When a setTimeout operation is processed in the stack, it is sent to the corresponding
+            API which waits till the specified time to send this operation back in for processing.The event loop
+            facilitates this process; it constantly checks whether or not the call stack is empty. If it is empty, new
+            functions are added from the event queue. If it is not, then the current function call is processed.</p>
     </footer>
 
     <!-- add javascript  file  -->
